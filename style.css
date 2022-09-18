@@ -54,6 +54,10 @@
     font-size: 18px;
     font-weight: bold;
 }
+.navbar ul li a:hover{
+    background-color: blueviolet;
+}
+
 .profile{
     
     display: flex;
@@ -82,7 +86,14 @@
     padding: 1px;
 }
 
+
+
+
 /* section1 */
+
+
+
+
 .section1{
     display: flex;
     width: 100vw;
@@ -125,7 +136,13 @@
     text-decoration:line-through;
 }
 
+
+
+
 /* section2*/
+
+
+
 
 .section2{
     display: flex;
@@ -149,24 +166,31 @@
 }
 
 
+.section2 .item .specs2 .price{
+    font-size: 30px;
+    font-weight: bold;
+}
 
-.section2 .item img{
-    width: 100px;
+
+.section2 img{
+    width: 50px;
 }
 
 .btn{
     display: flex;
-    width: 300px;
+    width: 200px;
     height: 50px;
     border-radius: 30px;
     padding: 2px 20px;
     align-items: center;
     justify-content: space-evenly;
     background-color: tomato;
-
+    cursor: pointer;
+    border: none;
 }
-.btn .pic{
-    width: 10px;
+
+.section2 .item .btn img{
+    width: 40px;
 }
 .btn h1{
     font-size: 18px;

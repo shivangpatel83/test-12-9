@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>Place order</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        body{
+            background-color: bisque;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 34vw;
+            height: 75vh;
+            margin-top:80px ;
+            margin-left: 150px;
+            background-color: green;
+        }
+
+        .order{
+            display: flex;
+            flex-direction: column;
+            width: 30vw;
+            height: 70vh;
+            background-color: white;
+            justify-content: space-evenly;
+            align-items: center;
+          
+        }
+        .heading{
+            display: flex;
+            /* border: 2px solid red; */
+            width: 90%;
+            justify-content: space-between;
+        }
+        .heading .cross{
+            color: grey;
+        }
+        .order .address {
+            border-top: 1px solid grey;
+            border-bottom:1px solid grey ;
+            width: 100%;
+            text-align: center;
+        }
+         .order .address div{
+            margin: 15px;
+         }
+
+         .order .address input{
+            width: 400px;
+            height: 50px;
+            border-radius: 20px;
+            padding-left: 20px;
+         }
+
+         button{
+            background-color: tomato;
+            padding: 8px 40px;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+         }
+
+         
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="order">
+        <div class="heading">
+            <h1>Place Your Order</h1>
+            <h1 class="cross">x</h1>
+        </div>
+        <div class="address">
+            <div><input type="text" name="name" id="name" placeholder="Phone"></div>
+            <div><input type="text" name="name" id="name" placeholder="First Name"></div>
+            <div><input type="text" name="name" id="name" placeholder="Last Name"></div>
+            <div><input type="text" name="name" id="name" placeholder="Address"></div>
+            <div><input type="text" name="name" id="name" placeholder="Email"></div>
+         
+        </div>
+       <div class="submit"> <button>Buy Now</button></div>
+    </div>
+</div>
+</body>
+</html>
